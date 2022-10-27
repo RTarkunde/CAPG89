@@ -1,0 +1,522 @@
+==16372== Memcheck, a memory error detector
+==16372== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16372== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==16372== Command: ../bin/LinkedList.bin
+==16372== 
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 198
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Donald
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is OConnell
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is DOCONNEL
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.507.9833
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is SH_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2600
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 199
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Douglas
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Grant
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is DGRANT
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.507.9844
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is SH_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2600
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 200
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Jennifer
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Whalen
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JWHALEN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.4444
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is AD_ASST
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 4400
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 201
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Michael
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Hartstein
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is MHARTSTE
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.5555
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is MK_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 13000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 202
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Pat
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Fay
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is PFAY
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 603.123.6666
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is MK_REP
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 6000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 203
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Susan
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Mavris
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SMAVRIS
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.7777
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is HR_REP
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 6500
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 204
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Hermann
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Baer
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is HBAER
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.8888
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PR_REP
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 10000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 205
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Shelley
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Higgins
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SHIGGINS
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.8080
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is AC_MGR
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 12008
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 206
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is William
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Gietz
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is WGIETZ
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.8181
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is AC_ACCOUNT
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 8300
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 100
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Steven
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is King
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SKING
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.4567
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is AD_PRES
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 24000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 101
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Neena
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Kochhar
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is NKOCHHAR
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.4568
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is AD_VP
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 17000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 102
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Lex
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is De
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is LDEHAAN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.123.4569
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is AD_VP
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 12000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 103
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Alexander
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Hunold
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is AHUNOLD
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 590.423.4567
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is IT_PROG
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 9000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 104
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Bruce
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Ernst
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is BERNST
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 590.423.4568
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is IT_PROG
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 6000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 105
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is David
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Austin
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is DAUSTIN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 590.423.4569
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is IT_PROG
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 4800
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 106
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Valli
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Pataballa
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is VPATABAL
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 590.423.4560
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is IT_PROG
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 4800
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 107
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Diana
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Lorentz
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is DLORENTZ
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 590.423.5567
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is IT_PROG
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 4200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 108
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Nancy
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Greenberg
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is NGREENBE
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.124.4569
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is FI_MGR
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 12008
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 109
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Daniel
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Faviet
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is DFAVIET
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.124.4169
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is FI_ACCOUNT
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 9000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 110
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is John
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Chen
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JCHEN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.124.4269
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is FI_ACCOUNT
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 8200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 111
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Ismael
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Sciarra
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is ISCIARRA
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.124.4369
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is FI_ACCOUNT
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 7700
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 112
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Jose
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Manuel
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JMURMAN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.124.4469
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is FI_ACCOUNT
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 5000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 113
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Luis
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Popp
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is LPOPP
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.124.4567
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is FI_ACCOUNT
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 6900
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 114
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Den
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Raphaely
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is DRAPHEAL
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.127.4561
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PU_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 11000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 115
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Alexander
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Khoo
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is AKHOO
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.127.4562
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PU_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 3100
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 116
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Shelli
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Baida
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SBAIDA
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.127.4563
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PU_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2900
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 117
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Sigal
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Tobias
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is STOBIAS
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.127.4564
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PU_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2800
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 118
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Guy
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Himuro
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is GHIMURO
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.127.4565
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PU_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2600
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 119
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Karen
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Colmenares
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is KCOLMENA
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 515.127.4566
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is PU_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2500
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 120
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Matthew
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Weiss
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is MWEISS
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.123.1234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 8000
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 121
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Adam
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Fripp
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is AFRIPP
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.123.2234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 8200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 122
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Payam
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Kaufling
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is PKAUFLIN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.123.3234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 7900
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 123
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Shanta
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Vollman
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SVOLLMAN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.123.4234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 6500
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 124
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Kevin
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Mourgos
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is KMOURGOS
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.123.5234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_MAN
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 5800
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 125
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Julia
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Nayer
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JNAYER
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.1214
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 3200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 126
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Irene
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Mikkilineni
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is IMIKKILI
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.1224
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 127
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is James
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Landry
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JLANDRY
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.1334
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2400
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 128
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Steven
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Markle
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SMARKLE
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.1434
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 129
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Laura
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Bissot
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is LBISSOT
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.5234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 3300
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 130
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Mozhe
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Atkinson
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is MATKINSO
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.6234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2800
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 131
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is James
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Marlow
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JAMRLOW
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.7234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2500
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 132
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is TJ
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Olson
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is TJOLSON
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.124.8234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2100
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 133
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Jason
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Mallin
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JMALLIN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.127.1934
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 3300
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 134
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Michael
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Rogers
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is MROGERS
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.127.1834
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2900
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 135
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Ki
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Gee
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is KGEE
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.127.1734
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2400
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 136
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Hazel
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Philtanker
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is HPHILTAN
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.127.1634
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 137
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Renske
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Ladwig
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is RLADWIG
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.121.1234
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 3600
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 138
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Stephen
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Stiles
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is SSTILES
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.121.2034
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 3200
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 139
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is John
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Seo
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JSEO
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.121.2019
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2700
+12:26:45 [94mTRACE[0m [90m../src/main.c:96:[0m Entering function constructsEmpStruct
+12:26:45 [32mINFO [0m [90m../src/main.c:109:[0m Employee Id is 140
+12:26:45 [32mINFO [0m [90m../src/main.c:115:[0m Employee First Name is Joshua
+12:26:45 [32mINFO [0m [90m../src/main.c:122:[0m Employee Last Name is Patel
+12:26:45 [32mINFO [0m [90m../src/main.c:129:[0m Employee Email is JPATEL
+12:26:45 [32mINFO [0m [90m../src/main.c:136:[0m Employee Phone is 650.121.1834
+12:26:45 [32mINFO [0m [90m../src/main.c:143:[0m Employee Job Id is ST_CLERK
+12:26:45 [32mINFO [0m [90m../src/main.c:151:[0m Employee Salary is 2500
+| 140 |      Joshua       Patel |      JPATEL | 650.121.1834 |   ST_CLERK |  2500 |
+| 139 |        John         Seo |        JSEO | 650.121.2019 |   ST_CLERK |  2700 |
+| 138 |     Stephen      Stiles |     SSTILES | 650.121.2034 |   ST_CLERK |  3200 |
+| 137 |      Renske      Ladwig |     RLADWIG | 650.121.1234 |   ST_CLERK |  3600 |
+| 136 |       Hazel  Philtanker |    HPHILTAN | 650.127.1634 |   ST_CLERK |  2200 |
+| 135 |          Ki         Gee |        KGEE | 650.127.1734 |   ST_CLERK |  2400 |
+| 134 |     Michael      Rogers |     MROGERS | 650.127.1834 |   ST_CLERK |  2900 |
+| 133 |       Jason      Mallin |     JMALLIN | 650.127.1934 |   ST_CLERK |  3300 |
+| 132 |          TJ       Olson |     TJOLSON | 650.124.8234 |   ST_CLERK |  2100 |
+| 131 |       James      Marlow |     JAMRLOW | 650.124.7234 |   ST_CLERK |  2500 |
+| 130 |       Mozhe    Atkinson |    MATKINSO | 650.124.6234 |   ST_CLERK |  2800 |
+| 129 |       Laura      Bissot |     LBISSOT | 650.124.5234 |   ST_CLERK |  3300 |
+| 128 |      Steven      Markle |     SMARKLE | 650.124.1434 |   ST_CLERK |  2200 |
+| 127 |       James      Landry |     JLANDRY | 650.124.1334 |   ST_CLERK |  2400 |
+| 126 |       Irene Mikkilineni |    IMIKKILI | 650.124.1224 |   ST_CLERK |     2 |
+| 125 |       Julia       Nayer |      JNAYER | 650.124.1214 |   ST_CLERK |  3200 |
+| 124 |       Kevin     Mourgos |    KMOURGOS | 650.123.5234 |     ST_MAN |  5800 |
+| 123 |      Shanta     Vollman |    SVOLLMAN | 650.123.4234 |     ST_MAN |  6500 |
+| 122 |       Payam    Kaufling |    PKAUFLIN | 650.123.3234 |     ST_MAN |  7900 |
+| 121 |        Adam       Fripp |      AFRIPP | 650.123.2234 |     ST_MAN |  8200 |
+| 120 |     Matthew       Weiss |      MWEISS | 650.123.1234 |     ST_MAN |  8000 |
+| 119 |       Karen  Colmenares |    KCOLMENA | 515.127.4566 |   PU_CLERK |  2500 |
+| 118 |         Guy      Himuro |     GHIMURO | 515.127.4565 |   PU_CLERK |  2600 |
+| 117 |       Sigal      Tobias |     STOBIAS | 515.127.4564 |   PU_CLERK |  2800 |
+| 116 |      Shelli       Baida |      SBAIDA | 515.127.4563 |   PU_CLERK |  2900 |
+| 115 |   Alexander        Khoo |       AKHOO | 515.127.4562 |   PU_CLERK |  3100 |
+| 114 |         Den    Raphaely |    DRAPHEAL | 515.127.4561 |     PU_MAN | 11000 |
+| 113 |        Luis        Popp |       LPOPP | 515.124.4567 | FI_ACCOUNT |  6900 |
+| 112 |        Jose      Manuel |     JMURMAN | 515.124.4469 | FI_ACCOUNT |  5000 |
+| 111 |      Ismael     Sciarra |    ISCIARRA | 515.124.4369 | FI_ACCOUNT |  7700 |
+| 110 |        John        Chen |       JCHEN | 515.124.4269 | FI_ACCOUNT |  8200 |
+| 109 |      Daniel      Faviet |     DFAVIET | 515.124.4169 | FI_ACCOUNT |  9000 |
+| 108 |       Nancy   Greenberg |    NGREENBE | 515.124.4569 |     FI_MGR | 12008 |
+| 107 |       Diana     Lorentz |    DLORENTZ | 590.423.5567 |    IT_PROG |  4200 |
+| 106 |       Valli   Pataballa |    VPATABAL | 590.423.4560 |    IT_PROG |  4800 |
+| 105 |       David      Austin |     DAUSTIN | 590.423.4569 |    IT_PROG |  4800 |
+| 104 |       Bruce       Ernst |      BERNST | 590.423.4568 |    IT_PROG |  6000 |
+| 103 |   Alexander      Hunold |     AHUNOLD | 590.423.4567 |    IT_PROG |  9000 |
+| 102 |         Lex          De |     LDEHAAN | 515.123.4569 |      AD_VP | 12000 |
+| 101 |       Neena     Kochhar |    NKOCHHAR | 515.123.4568 |      AD_VP | 17000 |
+| 100 |      Steven        King |       SKING | 515.123.4567 |    AD_PRES | 24000 |
+| 206 |     William       Gietz |      WGIETZ | 515.123.8181 | AC_ACCOUNT |  8300 |
+| 205 |     Shelley     Higgins |    SHIGGINS | 515.123.8080 |     AC_MGR | 12008 |
+| 204 |     Hermann        Baer |       HBAER | 515.123.8888 |     PR_REP | 10000 |
+| 203 |       Susan      Mavris |     SMAVRIS | 515.123.7777 |     HR_REP |  6500 |
+| 202 |         Pat         Fay |        PFAY | 603.123.6666 |     MK_REP |  6000 |
+| 201 |     Michael   Hartstein |    MHARTSTE | 515.123.5555 |     MK_MAN | 13000 |
+| 200 |    Jennifer      Whalen |     JWHALEN | 515.123.4444 |    AD_ASST |  4400 |
+| 199 |     Douglas       Grant |      DGRANT | 650.507.9844 |  12:26:45 [32mINFO [0m [90m../src/main.c:224:[0m One node changed
+
+12:26:45 [32mINFO [0m [90m../src/main.c:224:[0m One node changed
+
+ SH_CLERK |  2600 |
+| 198 |      Donald    OConnell |    DOCONNEL | 650.507.9833 |   SH_CLERK |  2600 |
+One node changed
+One node changed
+| 140 |      Joshua       Patel |      JPATEL | 650.121.1834 |   ST_CLERK |  2500 |
+| 139 |        John         Seo |        JSEO | 650.121.2019 |   ST_CLERK |  2700 |
+| 138 |     Stephen      Stiles |     SSTILES | 650.121.2034 |   ST_CLERK |  3200 |
+| 137 |      Renske      Ladwig |     RLADWIG | 650.121.1234 |   ST_CLERK |  3600 |
+| 136 |       Hazel  Philtanker |    HPHILTAN | 650.127.1634 |   ST_CLERK |  2200 |
+| 135 |          Ki         Gee |        KGEE | 650.127.1734 |   ST_CLERK |  2400 |
+| 134 |     Michael      Rogers |     MROGERS | 650.127.1834 |   ST_CLERK |  2900 |
+| 133 |       Jason      Mallin |     JMALLIN | 650.127.1934 |   ST_CLERK |  3300 |
+| 132 |          TJ       Olson |     TJOLSON | 650.124.8234 |   ST_CLERK |  2100 |
+| 131 |       James      Marlow |     JAMRLOW | 650.124.7234 |   ST_CLERK |  2500 |
+| 130 |       Mozhe    Atkinson |    MATKINSO | 650.124.6234 |   ST_CLERK |  2800 |
+| 129 |       Laura      Bissot |     LBISSOT | 650.124.5234 |   ST_CLERK |  3300 |
+| 128 |      Steven      Markle |     SMARKLE | 650.124.1434 |   ST_CLERK |  2200 |
+| 127 |       James      Landry |     JLANDRY | 650.124.1334 |   ST_CLERK |  2400 |
+| 126 |       Irene Mikkilineni |    IMIKKILI | 650.124.1224 |   ST_CLERK |     2 |
+| 125 |       Julia       Nayer |      JNAYER | 650.124.1214 |   ST_CLERK |  3200 |
+| 124 |       Kevin     Mourgos |    KMOURGOS | 650.123.5234 |     ST_MAN |  5800 |
+| 123 |      Shanta     Vollman |    SVOLLMAN | 650.123.4234 |     ST_MAN |  6500 |
+| 122 |       Payam    Kaufling |    PKAUFLIN | 650.123.3234 |     ST_MAN |  7900 |
+| 121 |        Adam       Fripp |      AFRIPP | 650.123.2234 |     ST_MAN |  8200 |
+| 120 |     Matthew       Weiss |      MWEISS | 650.123.1234 |     ST_MAN |  8000 |
+| 119 |       Karen  Colmenares |    KCOLMENA | 515.127.4566 |   PU_CLERK |  2500 |
+| 118 |         Guy      Himuro |     GHIMURO | 515.127.4565 |   PU_CLERK |  2600 |
+| 117 |       Sigal      Tobias |     STOBIAS | 515.127.4564 |   PU_CLERK |  2800 |
+| 116 |      Shelli       Baida |      SBAIDA | 515.127.4563 |   PU_CLERK |  2900 |
+| 115 |        Alex        Khoo |       AKHOO | 515.127.4562 |   PU_CLERK |  3100 |
+| 114 |         Den    Raphaely |    DRAPHEAL | 515.127.4561 |     PU_MAN | 11000 |
+| 113 |        Luis        Popp |       LPOPP | 515.124.4567 | FI_ACCOUNT |  6900 |
+| 112 |        Jose      Manuel |     JMURMAN | 515.124.4469 | FI_ACCOUNT |  5000 |
+| 111 |      Ismael     Sciarra |    ISCIARRA | 515.124.4369 | FI_ACCOUNT |  7700 |
+| 110 |        John        Chen |       JCHEN | 515.124.4269 | FI_ACCOUNT |  8200 |
+| 109 |      Daniel      Faviet |     DFAVIET | 515.124.4169 | FI_ACCOUNT |  9000 |
+| 108 |       Nancy   Greenberg |    NGREENBE | 515.124.4569 |     FI_MGR | 12008 |
+| 107 |       Diana     Lorentz |    DLORENTZ | 590.423.5567 |    IT_PROG |  4200 |
+| 106 |       Valli   Pataballa |    VPATABAL | 590.423.4560 |    IT_PROG |  4800 |
+| 105 |       David      Austin |     DAUSTIN | 590.423.4569 |    IT_PROG |  4800 |
+| 104 |       Bruce       Ernst |      BERNST | 590.423.4568 |    IT_PROG |  6000 |
+| 103 |        Alex      Hunold |     AHUNOLD | 590.423.4567 |    IT_PROG |  9000 |
+| 102 |         Lex          De |     LDEHAAN | 515.123.4569 |      AD_VP | 12000 |
+| 101 |       Neena     Kochhar |    NKOCHHAR | 515.123.4568 |      AD_VP | 17000 |
+| 100 |      Steven        King |       SKING | 515.123.4567 |    AD_PRES | 24000 |
+| 206 |     William       Gietz |      WGIETZ | 515.123.8181 | AC_ACCOUNT |  8300 |
+| 205 |     Shelley     Higgins |    SHIGGINS | 515.123.8080 |     AC_MGR | 12008 |
+| 204 |     Hermann        Baer |       HBAER | 515.123.8888 |     PR_REP | 10000 |
+| 203 |       Susan      Mavris |     SMAVRIS | 515.123.7777 |     HR_REP |  6500 |
+| 202 |         Pat         Fay |        PFAY | 603.123.6666 |     MK_REP |  6000 |
+| 201 |     Michael   Hartstein |    MHARTSTE | 515.123.5555 |     MK_MAN | 13000 |
+| 200 |   12:26:45 [32mINFO [0m [90m../src/main.c:45:[0m 50 Structres freed
+12:26:45 [94mTRACE[0m [90m../src/main.c:47:[0m Exiting function main
+ Jennifer      Whalen |     JWHALEN | 515.123.4444 |    AD_ASST |  4400 |
+| 199 |     Douglas       Grant |      DGRANT | 650.507.9844 |   SH_CLERK |  2600 |
+| 198 |      Donald    OConnell |    DOCONNEL | 650.507.9833 |   SH_CLERK |  2600 |
+==16372== 
+==16372== HEAP SUMMARY:
+==16372==     in use at exit: 0 bytes in 0 blocks
+==16372==   total heap usage: 465 allocs, 465 frees, 37,928 bytes allocated
+==16372== 
+==16372== All heap blocks were freed -- no leaks are possible
+==16372== 
+==16372== For lists of detected and suppressed errors, rerun with: -s
+==16372== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
